@@ -2,19 +2,32 @@
   "étage1": [
     "salle1": {
       "id": "quantum_assassin",
-      "hp": 7800,
-      "atk": 480,
-      "speed": 140,
-      "multiplier": 1.5,
-      "ability": "slow"
+      "hp": 2.0,
+      "atk": 1.2,
+      "speed": 1.0,
     },
     "salle2": {
       "id": "frostbound_adept",
-      "hp": 6700,
-      "atk": 420,
-      "speed": 155,
-      "multiplier": 1.4,
-      "ability": "freeze"
-    }
+      "hp": 2.0,
+      "atk": 1.2,
+      "speed": 1.1,
+    },
+      "récompense": 200
+  ],
+  "étage2": [
+    "salle1": {
+      "id": "storm_mite",
+      "number": 2,
+      "hp": 2.1,
+      "atk": 1.4,
+      "speed": 1.1,
+    },
+    "salle2": {
+      "id": "elite_thunder_judge",
+      "hp": 2.0,
+      "atk": 1.2,
+      "speed": 1.1,
+    },
+      "récompense": 200
   ]
 }
