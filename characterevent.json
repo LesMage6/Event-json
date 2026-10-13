@@ -1,0 +1,45 @@
+{
+"id": "seigneur_foudre",
+    "name": "Sensei Foudre",
+    "rarity": 3,
+    "path": "Savoir",
+    "element": "Foudre",
+    "stats": {
+      "hp": 4000,
+      "atk": 520,
+      "crit": 50,
+      "crit_damage": 50,
+      "damage_reduction": 0,
+      "speed": 101
+    },
+    "basic": {
+      "name": "Lance de Foudre",
+      "multiplier": 1.4
+    },
+    "skills": [
+      {
+        "name": "Colère de la Foudre",
+        "cooldown": 1,
+        "kind": "attack",
+        "target": "all",
+        "multplier": 2.4
+      },
+      {
+        "name": "C'est l'heure de la Foudre !",
+        "cooldown": 3,
+        "kind": "attack_debuff",
+        "target": "all",
+        "multplier": 3,
+        "stat": "atk",
+        "value": -20,
+        "duration": 2
+      },
+      {
+        "name": "Anihilation",
+        "cooldown": 5,
+        "kind": "attack",
+        "target": "all",
+        "multiplier": 4
+      }
+    ]
+  },
